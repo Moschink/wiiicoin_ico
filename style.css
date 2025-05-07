@@ -2853,6 +2853,7 @@ mettle PORTFOLIO AREA CSS
 .minha_cost_area{
 	padding:90px 0px 100px;
 	background:#F9FAFFCC;
+   
 }
 .cost_top{
 	margin-top:40px;
@@ -3157,7 +3158,7 @@ mettle PORTFOLIO AREA CSS
     opacity: 1;
     bottom: 30px;
 }
-/* minha_service_bg_area */
+
 .minha_service_bg_area{
 	background-image: url(assets/images/road-img.png);
     background-position: center center;
@@ -3165,6 +3166,7 @@ mettle PORTFOLIO AREA CSS
     background-size: cover;
 	padding:100px 0px 63px;
 	position:relative;
+   margin-top: -3%;
 }
  .minha_service_bg_area:before {
     content: "";
@@ -3176,6 +3178,8 @@ mettle PORTFOLIO AREA CSS
     background:#F9FAFFCC;
     -webkit-transform: skewY(-6deg);
 }
+
+
 .service_top{
 	margin-top:30px;
 }
@@ -3746,6 +3750,8 @@ mettle PORTFOLIO AREA CSS
 } 
 .minha_cryptocurrency_area .witr_section_title_inner h1 {
     font-weight: 400;
+    /* margin-top: -10%; */
+    
 }
 .minha_cryptocurrency_area .witr_section_title_inner.text-left p {
     width: 100%;
