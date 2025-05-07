@@ -19,7 +19,7 @@
         }
 
         // Set the recipient email address.
-        $recipient = "info@example.com";
+        $recipient = "admin@wiiigle.com";
 
         // Set the email sub.
         $sub = "Mail contact from $name";

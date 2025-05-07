@@ -4411,6 +4411,9 @@ mettle PORTFOLIO AREA CSS
 .single_counter:hover:before {
     border-color:#1a31ff;
 }
+.bgcolorr{
+    background-color: whitesmoke;
+}
 .single_counter:hover {
     background:#1a31ff;
     border-color:#1a31ff;
@@ -5183,7 +5186,7 @@ END EM40 SCROLL TOP CSS
 iframe{
     position: absolute;
     z-index: 3;
-    margin-left: 5%;
+    margin-left: 25%;
     display: none;
     margin-top: -45%;
     border-radius: 1%;
