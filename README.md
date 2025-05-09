@@ -1,1 +1,1 @@
-The texts in the index html as been updated accordingly.
+Map, charts and other text edit has been successfully updated
