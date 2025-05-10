@@ -38,17 +38,30 @@ var x = setInterval(function() {
 
 
     function myFunction() {
-     
-      const button = document.getElementById('toggleButton');
+        const button = document.getElementById('toggleButton');
       const x = document.getElementById("PopUp");
-      if (button.textContent === 'READ WHITEPAPER'&& x.style.display === "none") {
+    if (button.textContent === 'READ WHITEPAPER'){
         button.textContent = 'CLOSE WHITEPAPER';
         x.style.display = "block";
-    } else {
-        button.textContent = 'READ WHITEPAPER';
+    }   
+    else{
+      button.textContent = 'READ WHITEPAPER';
         x.style.display = "none";
-    } 
-      
-     
-     
     }
+}
+     
+  
+ 
+ function my_function() {
+     
+      const button = document.getElementById('toggleButton1');
+      const x = document.getElementById("PopUp2");
+    if (button.textContent === 'OPEN ADSAPP'){
+        button.textContent = 'CLOSE ADSAPP';
+        x.style.display = "block";
+    }   
+    else{
+      button.textContent = 'OPEN ADSAPP';
+        x.style.display = "none";
+    }
+}

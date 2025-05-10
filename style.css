@@ -196,7 +196,8 @@ a:hover {
 .witr_section_title_inner1 {
     position: relative;
     z-index: 1;
-    width: 1000px;
+    
+    margin-left:10%;
 }
 
 .witr_back_title {
@@ -3434,10 +3435,6 @@ mettle PORTFOLIO AREA CSS
     margin-top: -15%;
 }
 
-.chartimg {
-    width: 80%;
-}
-
 .cost_top {
     margin-top: 40px;
 }
@@ -6275,13 +6272,45 @@ a.dtbtn:hover,
     border-radius: 1%;
     border: none;
 }
+.iframe2 {
+    position: absolute;
+    z-index: 3;
+    margin-left: 20%;
+    display: none;
+    margin-top: 32%;
+    border-radius: 1%;
+    border: none;
+}
 
 .timer_section {
     text-align: center;
 
     margin-left: 17%;
-
 }
+ .chartimg{
+        margin-left: 100px;
+    }
+    .charity1{
+        color: #004527;
+    }
+    .charity2{
+         color: #fd4511;
+    }
+    .charity3{
+         color: #134582;
+    }
+    .charity4{
+            color: #b5ec40;
+    }
+    .charity5{
+         color: #00a76e;
+    }
+    .charity6{
+         color: #5ce054;
+    }
+    .charity7{
+        color:#88cafb;
+    }
 
 @media only screen and (max-width: 1000px) {
     .chartimg {
