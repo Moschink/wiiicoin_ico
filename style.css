@@ -6281,6 +6281,9 @@ a.dtbtn:hover,
     border-radius: 1%;
     border: none;
 }
+.chartimg{
+    margin-top: -25%;
+}
 
 .timer_section {
     text-align: center;
@@ -6312,9 +6315,9 @@ a.dtbtn:hover,
         color:#88cafb;
     }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 500px) {
     .chartimg {
-        width: 45%;
+        width: 100%;
     }
 
     .minha_cost_area {
